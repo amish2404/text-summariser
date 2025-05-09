@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #7eb7f0c8;
+  color: #1b0352;
+}
+body {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/56d44c984c2f85dc2dff9499/1477482776583-RNVE8XX3LGB4OXMT2PCY/20160926_iMessage_JS01-copy-article-header.jpg?format=1500w');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-section,
+.output-section {
+  flex: 1 1 48%;
+  background-color: hsl(56, 83%, 53%);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #d82828;
+  border-radius: 8px;
+  resize: vertical;
+  background-color: #e5f2c0;
+}
+
+.controls {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#summary {
+  background-color: #f0f3e8;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: rgb(147, 30, 30);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
